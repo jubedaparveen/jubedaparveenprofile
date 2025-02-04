@@ -4,13 +4,13 @@ const Contact = () => {
   return (
     <div className="border-b border-slate-700" id="Contact">
       <div className="text-white md:mt-16 mt-2 bg-black">
-        <h2 className="text-xl md:text-4xl uppercase font-semibold text-center mb-2 md:mb-16 tracking-widest bg-slate-800 px-4 py-1 rounded-full">
+        <h2 className="text-xl md:text-4xl uppercase font-semibold text-center mb-2 md:mb-16 tracking-widest bg-slate-800 px-4 py-1 md:rounded-full">
           Contact
         </h2>
 
         <div className="mb-8 text-white" data-aos="zoom-in"> 
-          <div className="rounded-full border border-slate-700 shadow-lg shadow-slate-700 md:p-4 p-2">
-            <div className="w-1/2 mx-auto rounded-3xl shadow-inner shadow-slate-500 border border-slate-700 p-8">
+          <div className="md:w-1/2 border mx-auto border-slate-700 shadow-lg shadow-slate-700 md:p-4 p-2">
+            <div className=" mx-auto rounded-3xl shadow-inner shadow-slate-500 border border-slate-700 p-8">
               <h2 className="md:my-4 uppercase tracking-widest md:text-2xl font-bold text-center">
                 Contact form
               </h2>

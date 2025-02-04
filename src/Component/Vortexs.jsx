@@ -69,12 +69,12 @@ const Vortexs = () => {
           baseHue={120}
           className="flex items-center flex-col md:flex-row justify-center px-2 md:px-10  py-4 w-full h-full"
         >
-          <div className="flex flex-col w-[75%]  md:flex-row items-center justify-between  mt-6">
+          <div className="flex flex-col w-[60%] md:w-[75%]  md:flex-row items-center justify-between  mt-6">
             <div>
-              <h2 className="text-white text-2xl md:text-6xl font-bold ">
+              <h2 className="text-white text-2xl md:text-4xl font-bold ">
                 Hello, I'M
               </h2>
-              <h2 className="text-white text-2xl md:text-6xl font-semibold mt-2">
+              <h2 className="text-white text-2xl md:text-4xl font-semibold mt-2">
                 Jubeda Parveen
               </h2>
 
@@ -92,22 +92,22 @@ const Vortexs = () => {
                 <span className="w-8 p-2 text-white h-7 border rounded-full flex justify-center items-center me-2 mt-1 bg-slate-700">
                   <SiGmail size={30} className="inline" />
                 </span>
-                <h2 className="text-white text-2xl  font-semibold">
+                <h2 className="text-white md:text-2xl  font-semibold">
                   jubedaparveenh@gmail.com
                 </h2>
               </div>
-              <div className="flex mt-2 mb-10">
+              <div className="flex mt-2 md:mb-10 mb-4">
                 <span className="w-8 p-2 text-white h-7 border rounded-full flex justify-center items-center me-2 mt-1 bg-slate-700">
                 <FaPhoneAlt size={30} className="inline"/>
                 </span>
-                <h2 className="text-white text-2xl font-semibold">
+                <h2 className="text-white md:text-2xl font-semibold">
                   9406680070
                 </h2>
               </div>
 
               <button
                 type="button"
-                className="px-8 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white uppercase tracking-wider shadow-[0px_2px_0px_0px_#FFFFFF40_inset] "
+                className=" px-2 md:px-8 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white uppercase md:tracking-wider shadow-[0px_2px_0px_0px_#FFFFFF40_inset] "
                 onClick={() => {
                   handleDownload(DownloadPdfUrl);
                 }}
@@ -118,11 +118,11 @@ const Vortexs = () => {
             <div className=" rounded-full bg-black/80 shadow-xl shadow-slate-800">
               <Image
                 src={JubedaPic}
-                className="md:w-[40rem] mt-20 md:h-[40rem] w-96 h-96 rounded-full"
+                className="md:w-[40rem] md:mt-20 md:h-[40rem] w-96 h-auto rounded-full"
               />
             </div>
           </div>
-          <div className="text-white absolute md:left-40 left-2 bottom-55 md:after:content-[' '] md:after:h-40 md:after:w-1 md:after:bg-white md:after:inline-block ">
+          <div className="text-white absolute md:left-40 left-2 bottom-56 md:after:content-[' '] md:after:h-40 md:after:w-1 md:after:bg-white md:after:inline-block ">
             <ul>
               <Link
                 href={"https://www.linkedin.com/in/jubeda-parveen-12520920a/"}

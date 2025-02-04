@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="grid grid-cols-1 md:gap-16 gap-3 mb-8">
           {
             ExperienceDetail.map((edata, i)=>(
-              <div key={i} className="border border-slate-700 shadow-md shadow-slate-700 p-16"
+              <div key={i} className="border border-slate-700 shadow-md shadow-slate-700 p-2 md:p-16"
             data-aos="zoom-in-up">
             <div>
               <h2 className="my-4 uppercase tracking-widest md:text-2xl text-xl font-bold">

@@ -17,15 +17,18 @@ const Projectloop = ({pdata, viewModel, setViewModel, setCurrentItem, currentIte
         </div>
 
         <div>
-          <h2 className="my-4  uppercase tracking-widest text-2xl font-bold">
+          <h2 className="my-4  uppercase tracking-widest text-xl font-bold">
             {heading}
           </h2>
           <p>
-            <span  className="bg-slate-800 uppercase px-4 py-1 rounded-full font-semibold ">
-              {d1 }
-            </span>
+            <div  className="bg-slate-800 md:uppercase  p-4  rounded-lg">
+              <ul>
+                <li> {d1} </li>
+              </ul>
+              
+            </div>
           </p>
-          <p className="my-4 text-justify tracking-widest">{parag}</p>
+          <p className="my-4 text-justify md:tracking-widest">{parag}</p>
         </div>
 
         <div className="text-lg tracking-widest text-center bg-slate-800 px-4 py-1 rounded-full" onClick={() => {setCurrentItem(pdata); setViewModel(true);}}>

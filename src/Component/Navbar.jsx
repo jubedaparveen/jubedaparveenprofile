@@ -7,15 +7,15 @@ import Logo from "../../public/images/Logoo.png";
 const Navbar = () => {
   return (
     <div className="">
-      <div className="bg-black  text-white py-2 h-[5.3rem] w-[100vw] fixed top-0 left-0 right-0 z-50  ">
+      <div className="bg-black  text-white py-2 md:h-[5.3rem] w-[100%] fixed top-0 left-0 right-0 z-50  ">
         <div className=" max-w-screen-xl mx-auto ">
           <div className="flex justify-between items-center ">
             <div>
               <Image src={Logo} width={100} height={100} alt="" />
             </div>
 
-            <div className="uppercase tracking-widest text-lg ">
-              <ul className="flex gap-14">
+            <div className="uppercase md:tracking-widest md:text-lg ">
+              <ul className="flex gap-4 md:gap-14">
                 <Link href={"#Vortexs"}>
                   <li className="hover:bg-slate-300 hover:text-slate-950 rounded-full  hover:px-1 ">Home</li>
                 </Link>

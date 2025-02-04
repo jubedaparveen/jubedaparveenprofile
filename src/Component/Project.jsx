@@ -13,12 +13,12 @@ const Project = () => {
   return (
     <>
     <div className="border-b border-slate-700" id="Project">
-      <div className="text-white mt-16 bg-black">
-        <h2 className="text-4xl uppercase font-semibold text-center mb-16 tracking-widest bg-slate-800 px-4 py-1 rounded-full">
+      <div className="text-white mt-4 md:mt-16 bg-black">
+        <h2 className="text-xl md:text-4xl uppercase font-semibold text-center md:mb-16 mb-4 tracking-widest bg-slate-800 px-4 py-1 rounded-full">
           Project
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
           {
             ProjectDetail.map((pdata, i)=>(
 
