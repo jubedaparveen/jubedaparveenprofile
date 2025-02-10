@@ -18,11 +18,11 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
     >
       <div className="md:p-3 w-[60%] border mx-auto bg-black">
         <div className=" p-3 text-white">
-          <div className="mb-3  uppercase tracking-widest text-lg md:text-2xl text-center font-bold shadow-inner shadow-slate-500 border border-slate-700 py-1 flex justify-between px-1 md:px-3">
+          <div className="mb-3  uppercase tracking-widest  md:text-2xl text-center font-bold shadow-inner shadow-slate-500 border border-slate-700 py-1 flex justify-between px-1 md:px-3">
             <h2>{currentItem.heading} </h2>
             {iconsShow === false ? (
               <GiCrossMark
-                size={15}
+                size={20}
                 className="text-white border rounded-full p-1 mt-1"
                 onClick={() => setViewModel(false)}
               />
@@ -34,7 +34,7 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
               />
             )}
           </div>
-          <div className="hover:shadow-inner hover:shadow-amber-100 border overflow-scroll h-[20rem]">
+          <div className="hover:shadow-inner hover:shadow-amber-100 border overflow-scroll md:h-[20rem]">
             <img src={currentItem.Image} alt="" />
           </div>
 
@@ -44,7 +44,7 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
                 {currentItem.d1}
               </span>
             </p>
-            <p className="md:my-5 my-2 px-2 py-4 text-justify md:tracking-widest shadow-sm shadow-slate-100 borde ">
+            <p className="md:my-5 my-2 px-2 py-4 md:text-justify md:tracking-widest shadow-sm shadow-slate-100 borde ">
               {currentItem.parag}
             </p>
           </div>

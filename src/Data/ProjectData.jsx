@@ -13,8 +13,8 @@ const ProjectDetail = [
     {
         Image : '/images/javascript-e-com.jpg',
         heading : ['e-commerce website', <IoLogoJavascript size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(JAVASCRIPT)', <MdHtml size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(HTML)', <IoLogoCss3 size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(CSS)'],
-        linkgit : 'https://github.com/jubedaparveen/ZubiBlogs-UI-website',
-        linkweblive : 'https://zubi-blogs-ui-website.vercel.app/index.html',
+        linkgit : 'https://github.com/jubedaparveen/-Mini_Ecommerse-html-css-javascript-',
+        linkweblive : '#',
         d1 : [<IoLogoJavascript size={17} className="inline me-1 text-red-400"/>, 'Javasript',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e - commerce website'],
         parag : ["🚀 E-Commerce Website Project 🛒💻",<br/>,
                 "Built with HTML, CSS, and JavaScript, this project dynamically fetches product categories from the DummyJSON API 📡 Features include a sleek UI, interactive icons 🎨, and seamless navigation for an engaging shopping experience! 🛍️✨"]
@@ -22,8 +22,8 @@ const ProjectDetail = [
     {
         Image : '/images/javascript-e-comm.jpg',
         heading : ['e- commerce website', <SiBootstrap size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
-        linkgit : 'https://github.com/jubedaparveen/ZubiBlogs-UI-website',
-        linkweblive : 'https://zubi-blogs-ui-website.vercel.app/index.html',
+        linkgit : 'https://github.com/jubedaparveen/ecomapi-bootstrip-javascript-',
+        linkweblive : 'https://ecomapi-bootstrip-javascript.vercel.app/',
         d1 : [<SiBootstrap size={17} className="inline me-1 text-red-400"/>, 'bootstrap', <IoLogoJavascript size={19} className="inline mx-2 text-red-400 " />, '(JAVASCRIPT)',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e- commerce website'],
         parag : ['🛍️ E-Commerce Website Project 🚀',<br/>,
                 'Developed using Bootstrap and JavaScript, this project fetches product categories from the DummyJSON API 📡. It features a responsive design, stylish icons 🎨, and smooth navigation for an enhanced shopping experience! 🛒✨']
