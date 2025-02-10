@@ -14,27 +14,27 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
     <div
       className={` ${
         viewModel ? "block" : "hidden"
-      } w-full h-[20rem] bg-[rgba(0,0,0,0.5)] items-center justify-center  fixed  left-0 top-0 z-[999999999999]`}
+      } w-[90%] h-[20rem] bg-[rgba(0,0,0,0.5)] items-center justify-center  fixed  left-0 top-0 z-[999999999999]`}
     >
-      <div className="md:p-4 w-[60%] border mx-auto bg-black">
-        <div className=" p-4 text-white">
-          <div className="my-5  uppercase tracking-widest text-lg md:text-5xl text-center font-bold shadow-inner shadow-slate-500 border border-slate-700 py-2 flex justify-between px-1 md:px-3">
+      <div className="md:p-3 w-[60%] border mx-auto bg-black">
+        <div className=" p-3 text-white">
+          <div className="mb-3  uppercase tracking-widest text-lg md:text-2xl text-center font-bold shadow-inner shadow-slate-500 border border-slate-700 py-1 flex justify-between px-1 md:px-3">
             <h2>{currentItem.heading} </h2>
             {iconsShow === false ? (
               <GiCrossMark
-                size={20}
+                size={15}
                 className="text-white border rounded-full p-1 mt-1"
                 onClick={() => setViewModel(false)}
               />
             ) : (
               <GiCrossMark
-                size={40}
+                size={23}
                 className="text-white border rounded-full p-1 mt-1"
                 onClick={() => setViewModel(false)}
               />
             )}
           </div>
-          <div className="hover:shadow-inner hover:shadow-amber-100 border overflow-scroll ">
+          <div className="hover:shadow-inner hover:shadow-amber-100 border overflow-scroll h-[20rem]">
             <img src={currentItem.Image} alt="" />
           </div>
 
