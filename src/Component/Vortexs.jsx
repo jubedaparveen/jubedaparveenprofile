@@ -67,9 +67,9 @@ const Vortexs = () => {
           rangeY={800}
           particleCount={500}
           baseHue={120}
-          className="flex items-center flex-col md:flex-row justify-center px-2 md:px-10  py-4 w-full h-full"
+          className="flex items-center flex-col md:flex-row justify-center px-2 md:px-10 py-1 md:py-4 w-full h-full "
         >
-          <div className="flex flex-col w-[60%] md:w-[75%]  md:flex-row items-center justify-between  mt-6">
+          <div className="flex flex-col w-[60%] md:w-[75%]  md:flex-row items-center justify-between mt-20 md:mt-6">
             <div>
               <h2 className="text-white text-2xl md:text-4xl font-bold ">
                 Hello, I'M
@@ -79,10 +79,10 @@ const Vortexs = () => {
               </h2>
 
               <h2 className="text-white text-2xl md:text-5xl font-semibold md:my-8">
-                I'm a <span className="text-red-500 md:text-4xl">{displayedText} </span>{" "}
-                <span className="text-[#fef08a]">|</span>{" "}
+                I'm a <span className="text-red-500 text-lg md:text-4xl">{displayedText} </span>
+                <span className="text-[#fef08a]">|</span>
               </h2>
-              <p className="text-white text-sm md:text-2xl max-w-2xl md:my-10 tracking-widest  my-5">
+              <p className="text-white text-sm md:text-2xl max-w-2xl md:my-10 tracking-widest my-5">
                 "Full-Stack Developer [ MERN Stack ] | HTML5, CSS3, JavaScript,
                 React.js, Next.js, Node.js, Express.js, MongoDB | UI/UX
                 Enthusiast & Problem Solver" | Search Engine Optimization |
@@ -93,7 +93,7 @@ const Vortexs = () => {
                   <SiGmail size={30} className="inline" />
                 </span>
                 <h2 className="text-white md:text-2xl  font-semibold">
-                  jubedaparveenh@gmail.com
+                  jubedaparveenhh@gmail.com
                 </h2>
               </div>
               <div className="flex mt-2 md:mb-10 mb-4">
@@ -115,10 +115,10 @@ const Vortexs = () => {
                 Download resume <FaDownload className="inline ms-2" />
               </button>
             </div>
-            <div className=" rounded-full bg-black/80 shadow-xl shadow-slate-800">
+            <div className=" rounded-full bg-black/50 shadow-xl shadow-slate-800 hidden md:block ">
               <Image
                 src={JubedaPic}
-                className="md:w-[40rem] md:mt-20 md:h-[40rem] w-96 h-auto rounded-full"
+                className="md:w-[40rem] md:mt-2 md:h-auto w-96 h-auto rounded-full"
               />
             </div>
           </div>
