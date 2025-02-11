@@ -22,7 +22,7 @@ const ProjectDetail = [
     {
         Image : '/images/javascript-e-comm.jpg',
         heading : ['e- commerce website', <SiBootstrap size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
-        linkgit : 'https://github.com/jubedaparveen/ecomapi-bootstrip-javascript-',
+        linkgit : 'https://github.com/jubedaparveen/ecomapi-bootstrip-javascript-/',
         linkweblive : 'https://ecomapi-bootstrip-javascript.vercel.app/',
         d1 : [<SiBootstrap size={17} className="inline me-1 text-red-400"/>, 'bootstrap', <IoLogoJavascript size={19} className="inline mx-2 text-red-400 " />, '(JAVASCRIPT)',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e- commerce website'],
         parag : ['🛍️ E-Commerce Website Project 🚀',<br/>,

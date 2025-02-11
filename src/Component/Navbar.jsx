@@ -65,7 +65,7 @@ const Navbar = () => {
               <div className="text-white text-xl border p-1 rounded-lg md:hidden block ">
                 <FaBars
                   onClick={() => {
-                    setmobileMenuOpen(false);
+                    setmobileMenuOpen(!mobileMenuOpen);
                     setcloseHumburger(true);
                   }}/>
               </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <GiCrossedBones
                   onClick={() => {
                     setcloseHumburger(false);
-                    setmobileMenuOpen(!mobileMenuOpen);
+                    setmobileMenuOpen(false);
                   }}/>
               </div>
             )}
@@ -83,7 +83,7 @@ const Navbar = () => {
 
         {/* ------------------------ mobile menu ---------------------- */}
         <div className="  ">
-          <ul className={ ` ${ mobileMenuOpen ? 'top-[-300px]' : 'top-14' }  absolute  text-white bg-black w-[100%] py-[2rem] px-[2rem] text-xl uppercase md:hidden transition-all duration-500 ease-in`}>
+          <ul className={ ` ${ !mobileMenuOpen ? 'top-[-300px]' : 'top-14' }  absolute  text-white bg-black w-[100%] py-[2rem] px-[2rem] text-xl uppercase md:hidden transition-all duration-500 ease-in`}>
             <Link href={"#Vortexs"}>
               <li className="mt-3 text-center hover:text-rose-400 rounded-full ">Home</li>
             </Link>

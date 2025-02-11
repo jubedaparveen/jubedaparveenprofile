@@ -8,7 +8,8 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
 
   // console.log("console from model=>", currentItem);
 
-  const { heading, Image, d1, parag, linkgit, linkweblive } = currentItem;
+  const { heading, Image, d1, parag, href, linkweblive } = currentItem;
+  // console.log("git hub",linkgit)
 
   return (
     <div
@@ -50,12 +51,12 @@ const ViewCode = ({ viewModel, setViewModel, currentItem }) => {
           </div>
 
           <div className="w-full flex md:flex-row flex-col justify-center md:gap-24 gap-2 ">
-            <Link href={'currentItem.linkgit'}>
+            <Link href={`${currentItem.linkgit}`} target="blank ">
               <button className="md:uppercase md:text-lg md:tracking-widest text-center bg-slate-800 md:px-4 px-1 py-1 rounded-full border hover:shadow-lg hover:shadow-amber-200  ">
                 View Code on Github
               </button>
             </Link>
-            <Link href={'currentItem.linkweblive'}>
+            <Link href={`${currentItem.linkweblive}`} target="blank" >
               <button className="md:uppercase md:text-lg md:tracking-widest text-center bg-slate-800 md:px-4 px-1 py-1 rounded-full border hover:shadow-lg hover:shadow-amber-200">
                 View Live Website
               </button>
