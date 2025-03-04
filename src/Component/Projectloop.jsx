@@ -4,14 +4,16 @@ import ViewCode from "@/Models/ViewCode";
 const Projectloop = ({pdata, viewModel, setViewModel, setCurrentItem, currentItem}) => {
 
     // console.log(pdata)
-    const {Image, heading, d1, parag  } = pdata;
+    const {Image, heading, d1, parag, title  } = pdata;
 
   return (
     <>
       <div
         className="border border-slate-700 shadow-md shadow-slate-700 p-4 "
-        data-aos="zoom-in-up"
-      >
+        data-aos="zoom-in-up">
+          <div className="flex justify-center my-4  uppercase tracking-widest text-2xl font-bold text-red-500">
+            <h2 >{title}</h2>
+          </div>
         <div className="">
           <img src={Image} alt="" />
         </div>
