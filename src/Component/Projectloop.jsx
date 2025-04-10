@@ -30,10 +30,10 @@ const Projectloop = ({pdata, viewModel, setViewModel, setCurrentItem, currentIte
               
             </div>
           </p>
-          <p className="my-4 text-justify md:tracking-widest">{parag}</p>
+          
         </div>
 
-        <div className="text-lg tracking-widest text-center bg-slate-800 px-4 py-1 rounded-full" onClick={() => {setCurrentItem(pdata); setViewModel(true);}}>
+        <div className="mt-10 text-lg tracking-widest text-center bg-slate-800 px-4 py-1 rounded-full" onClick={() => {setCurrentItem(pdata); setViewModel(true);}}>
           <button className="uppercase" >
             view code & website
           </button>
