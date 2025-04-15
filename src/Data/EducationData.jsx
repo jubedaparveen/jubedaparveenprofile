@@ -26,7 +26,7 @@ const EducationDetail = [
         title : 'devi ahilya vishwavidyalaya (D.A.V.V) indore',
         Image: "/images/pg.jpg",
         Date : '[June 2009 - Nov 2011]',
-        parag : 'I pursued a Master of Science degree from Devi Ahilya Vishwavidyalaya (D.A.V.V), Indore, from June 2009 to November 2011.',
+        parag : 'I completed a Master of Science degree from Devi Ahilya Vishwavidyalaya (D.A.V.V), Indore, from June 2009 to November 2011.',
     }
 ]
 

@@ -11,7 +11,7 @@ const Projectloop = ({pdata, viewModel, setViewModel, setCurrentItem, currentIte
       <div
         className="border border-slate-700 shadow-md shadow-slate-700 p-4 "
         data-aos="zoom-in-up">
-          <div className="flex justify-center my-4  uppercase tracking-widest text-2xl font-bold text-red-500">
+          <div className="flex justify-center my-4  uppercase tracking-widest text-xl font-bold text-red-500">
             <h2 >{title}</h2>
           </div>
         <div className="">
@@ -19,11 +19,11 @@ const Projectloop = ({pdata, viewModel, setViewModel, setCurrentItem, currentIte
         </div>
 
         <div>
-          <h2 className="my-4  uppercase tracking-widest text-xl font-bold">
+          <h2 className="my-4  uppercase tracking-widest text-base font-bold">
             {heading}
           </h2>
           <p>
-            <div  className="bg-slate-800 md:uppercase  p-4  rounded-lg">
+            <div  className="bg-slate-800 md:uppercase text-sm p-2  rounded-lg">
               <ul>
                 <li> {d1} </li>
               </ul>

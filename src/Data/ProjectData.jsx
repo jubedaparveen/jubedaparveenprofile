@@ -13,66 +13,84 @@ const ProjectDetail = [
     {
         title: 'Javascript Project',
         Image : '/images/javascript-e-com.jpg',
-        heading : ['e-commerce website', <IoLogoJavascript size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(JAVASCRIPT)', <MdHtml size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(HTML)', <IoLogoCss3 size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(CSS)'],
+        heading : ['e-commerce website', <IoLogoJavascript size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(JAVASCRIPT)', <MdHtml size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(HTML)', <IoLogoCss3 size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(CSS)'],
         linkgit : 'https://github.com/jubedaparveen/-Mini_Ecommerse-html-css-javascript-',
         linkweblive : '#',
-        d1 : [<IoLogoJavascript size={17} className="inline me-1 text-red-400"/>, 'Javasript',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e - commerce website'],
+        d1 : [<IoLogoJavascript size={15} className="inline me-1 text-red-400"/>, 'Javasript',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e - commerce website'],
         parag : ["🚀 E-Commerce Website Project 🛒💻",<br/>,
                 "Built with HTML, CSS, and JavaScript, this project dynamically fetches product categories from the DummyJSON API 📡 Features include a sleek UI, interactive icons 🎨, and seamless navigation for an engaging shopping experience! 🛍️✨"]
     },
     {
         title: 'Javascript Project',
         Image : '/images/javascript-e-comm.jpg',
-        heading : ['e- commerce website', <SiBootstrap size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
+        heading : ['e- commerce website', <SiBootstrap size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
         linkgit : 'https://github.com/jubedaparveen/ecomapi-bootstrip-javascript-/',
         linkweblive : 'https://ecomapi-bootstrip-javascript.vercel.app/',
-        d1 : [<SiBootstrap size={17} className="inline me-1 text-red-400"/>, 'bootstrap', <IoLogoJavascript size={19} className="inline mx-2 text-red-400 " />, 'JAVASCRIPT',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e- commerce website'],
+        d1 : [<SiBootstrap size={15} className="inline me-1 text-red-400"/>, 'bootstrap', <IoLogoJavascript size={15} className="inline mx-2 text-red-400 " />, 'JAVASCRIPT',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'e- commerce website'],
         parag : ['🛍️ E-Commerce Website Project 🚀',<br/>,
                 'Developed using Bootstrap and JavaScript, this project fetches product categories from the DummyJSON API 📡. It features a responsive design, stylish icons 🎨, and smooth navigation for an enhanced shopping experience! 🛒✨']
     },
     {
-        title: 'Bootstrap Project',
+        title: 'Bootstrap Frontend Project',
         Image : '/images/blog.jpg',
-        heading : ['blog website', <SiBootstrap size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
+        heading : ['blog website', <SiBootstrap size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Bootstrap)'],
         linkgit : 'https://github.com/jubedaparveen/ZubiBlogs-UI-website',
         linkweblive : 'https://zubi-blogs-ui-website.vercel.app/index.html',
-        d1 : [<SiBootstrap size={17} className="inline me-1 text-red-400"/>, 'bootstrap',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'blog website'],
+        d1 : [<SiBootstrap size={15} className="inline me-1 text-red-400"/>, 'bootstrap',  <GoDotFill className="inline me-1 ms-2"/>, 'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/>, 'blog website'],
         parag : 'The Zubi Blogs UI Website is a responsive blog platform built with Bootstrap, ensuring a modern and mobile-friendly design. It features a clean layout, smooth navigation, and well-structured content sections. The website is optimized for readability and performance, offering an engaging user experience. Explore it here: Zubi Blogs.'
     },
     {
-        title: 'Next.Js Project',
+        title: 'Next.Js Frontend Project',
         Image : '/images/music-institute.jpg',
-        heading : ['Music Institute website', <SiNextdotjs size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
+        heading : ['Music Institute website', <SiNextdotjs size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
         linkgit : 'https://github.com/jubedaparveen/MusicInstitute',
         linkweblive : 'https://music-institute-nnqv.vercel.app/',
-        d1 : [<SiNextdotjs size={17} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        d1 : [<SiNextdotjs size={15} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
         parag : 'The Music Institute Website is a beautifully designed platform built with Next.js, Tailwind CSS and aceternity ui library. It offers a modern, responsive UI with smooth navigation and engaging visuals. This project showcases your ability to create dynamic, user-friendly websites with optimized performance and sleek design. 🎵🚀'
     },
     {
-        title: 'Next.Js Project',
+        title: 'Next.Js Frontend Project',
         Image : '../images/resumeweb.jpg',
-        heading : ['Profile website', <SiNextdotjs size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
+        heading : ['Profile Website', <SiNextdotjs size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
         linkgit : 'https://github.com/jubedaparveen/jubedaparveenprofile',
         linkweblive : 'https://jubedaparveenprofile.vercel.app/',
-        d1 : [<SiNextdotjs size={17} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        d1 : [<SiNextdotjs size={15} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
         parag : 'The Profile Website is a professional portfolio built using Next.js, Tailwind CSS, and the Aceternity UI library. It features a sleek, responsive design with smooth animations and modern styling. This project highlights your skills in crafting dynamic, visually appealing, and user-friendly web experiences. 🚀💼'
     },
     {
-        title: 'React.Js Project',
+        title: 'Next.Js MERN Full Stack Project( Working on it )',
+        Image : '../images/vedshree.png',
+        heading : ['VedShree Website', <SiNextdotjs size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
+        linkgit : 'https://github.com/jubedaparveen/vedshree_website1',
+        linkweblive : 'https://vedshree-website1.vercel.app/',
+        d1 : [<SiNextdotjs size={15} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        parag : 'The VedShree is a Ayurvedic Medicine E-Commerce site built using Next.js, Tailwind CSS, and the Shadcn UI library. It features a sleek, responsive design with smooth animations and modern styling. This project highlights your skills in crafting dynamic, visually appealing, and user-friendly web experiences. 🚀💼'
+    },
+    {
+        title: 'Next.Js MERN Full Stack Project( Working on it )',
+        Image : '../images/ideazvault.png',
+        heading : ['IdeazVault Blog website', <SiNextdotjs size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(Next JS)'],
+        linkgit : 'https://github.com/jubedaparveen/ideazvault.com',
+        linkweblive : 'https://ideazvault-com.vercel.app/',
+        d1 : [<SiNextdotjs size={15} className="inline me-1 text-red-400"/>, 'Next JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        parag : 'The IdeazVault.com is a Tech Blog site built using Next.js, Tailwind CSS, and the Shadcn UI library. It features a sleek, responsive design with smooth animations and modern styling. This project highlights your skills in crafting dynamic, visually appealing, and user-friendly web experiences. 🚀💼'
+    },
+    {
+        title: 'React.Js Frontend Project',
         Image : '../images/login.jpg',
-        heading : ['Admin Panel',<RiReactjsLine size={25} className="inline mx-2 text-red-400 border rounded-full" />, '(React JS)'],
+        heading : ['Admin Panel',<RiReactjsLine size={20} className="inline mx-2 text-red-400 border rounded-full" />, '(React JS)'],
         linkgit : 'https://github.com/jubedaparveen/adminpanelsite',
         linkweblive : 'https://adminpenalsite.vercel.app/',
-        d1 : [<RiReactjsLine size={17} className="inline me-1 text-red-400"/>, 'React JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        d1 : [<RiReactjsLine size={15} className="inline me-1 text-red-400"/>, 'React JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
         parag : 'The Admin Panel UI is your first custom-built dashboard, designed using React.js and Tailwind CSS. It features a clean, responsive interface for efficient management. This project highlights your frontend skills, focusing on usability, modern styling, and smooth navigation for seamless admin operations. 🚀'
     },
     {
-        title: 'React.Js Project',
+        title: 'React.Js Frontend Project',
         Image : '../images/zometo.jpg',
-        heading : ['Zometo UI Clone',  <RiReactjsLine size={25} className="inline mx-2 text-red-400 border rounded-full" />,  '(React JS)', ],
+        heading : ['Zometo UI Clone',  <RiReactjsLine size={20} className="inline mx-2 text-red-400 border rounded-full" />,  '(React JS)', ],
         linkgit : 'https://github.com/jubedaparveen/zomatouiclone',
         linkweblive : 'https://zomatouiclone.vercel.app/',
-        d1 : [<RiReactjsLine size={17} className="inline me-1 text-red-400"/>, 'React JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
+        d1 : [<RiReactjsLine size={15} className="inline me-1 text-red-400"/>, 'React JS', <GoDotFill className="inline me-1 ms-2"/> ,'ux / ui Design', <GoDotFill className="inline me-1 ms-2"/> ,'Tailwind CSS'],
         parag : 'The Zomato UI Clone is a sleek and responsive web application built using React.js and Tailwind CSS. It replicates Zomato’s user interface, offering an intuitive design for exploring restaurants. With optimized styling and smooth navigation, this project showcases efficient frontend development skills using modern technologies for a seamless user experience. 🚀'
     },
     {

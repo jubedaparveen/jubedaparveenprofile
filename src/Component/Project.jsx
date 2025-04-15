@@ -18,7 +18,7 @@ const Project = () => {
           Project
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           {
             ProjectDetail.map((pdata, i)=>(
 

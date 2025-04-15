@@ -1,9 +1,9 @@
 const ExperienceDetail = [
     {
         title : "Web Developer & Search Engine Optimization Executive",
-        heading : "E-Digital Master",
+        heading : "Aimfortech",
         date : "[4 sept 2023 - Mar 2024]",
-        parag : 'I worked as a WordPress Developer and Search Engine Optimization Executive at E-Digital Master from June 2009 to November 2011. During this time, I gained expertise in developing user-friendly websites and optimizing them for better search engine rankings, contributing to improved online visibility for various clients.',
+        parag : 'I worked as a MARN Stack Developer and Search Engine Optimization Executive at Aimfortech from June 2009 to November 2011. During this time, I gained expertise in developing user-friendly websites and optimizing them for better search engine rankings, contributing to improved online visibility for various clients.',
     },
     {
         title : "Digital Marketing Intern",
