@@ -22,7 +22,7 @@ const Vortexs = () => {
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const DownloadPdfUrl = "http://localhost:3000/jubedaparveen-Resume.pdf";
+  const DownloadPdfUrl = "https://jubedaparveenprofile.vercel.app/jubedaparveen-Resume.pdf";
 
   useEffect(() => {
     const currentText = text[indexNo];
