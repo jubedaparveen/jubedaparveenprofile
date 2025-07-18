@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
@@ -9,12 +10,25 @@ const Contact = () => {
         </h2>
 
         <div className="mb-8 text-white" data-aos="zoom-in"> 
-          <div className="md:w-1/2 border mx-auto border-slate-700 shadow-lg shadow-slate-700 md:p-4 p-2">
-            <div className=" mx-auto rounded-3xl shadow-inner shadow-slate-500 border border-slate-700 p-8">
-              <h2 className="md:my-4 uppercase tracking-widest md:text-2xl font-bold text-center">
-                Contact form
-              </h2>
-              <form method="post" className=" ">
+          <div className="md:max-w-5xl border mx-auto border-slate-700 shadow-lg shadow-slate-700 md:p-4 p-2">
+            <div className=" mx-auto rounded-3xl shadow-inner shadow-slate-500 border border-slate-700 p-8 space-y-6">
+              <div className="p-4 border border-slate-600 rounded-lg shadow-lg shadow-slate-800 hover:bg-slate-700">
+                <label>Email : </label>
+                jubedaparveenh@gmail.com
+              </div>
+              <div className="p-4 border border-slate-600 rounded-lg shadow-lg shadow-slate-800 hover:bg-slate-700">
+                <label>LinkedIn : </label>
+                <Link href={' https://www.linkedin.com/in/jubedaparveen/'}>
+                https://www.linkedin.com/in/jubedaparveen/ 
+                </Link>
+              </div>
+              <div className="p-4 border border-slate-600 rounded-lg shadow-lg shadow-slate-800 hover:bg-slate-700 ">
+                <label>GitHub Link : </label>
+                <Link href={'https://github.com/jubedaparveen'}>
+                https://github.com/jubedaparveen 
+                </Link>
+              </div>
+              {/* <form method="post" className=" ">
                 <div className="md:my-16">
                   <div class="grid md:grid-cols-2 md:gap-6 text-white">
                     <div class="relative z-0 w-full mb-5 group">
@@ -99,10 +113,8 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <div className="md:text-2xl font-bold md:tracking-widest text-center bg-slate-800 md:px-4 md:py-3 py-2 md:mb-5 rounded-full ">
-                  <button className="uppercase">submit</button>
-                </div>
-              </form>
+                
+              </form> */}
             </div>
           </div>
         </div>

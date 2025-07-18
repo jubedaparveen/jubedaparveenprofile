@@ -93,7 +93,7 @@ const Vortexs = () => {
                   <SiGmail size={30} className="inline" />
                 </span>
                 <h2 className="text-white md:text-2xl  font-semibold">
-                  jubedaparveenhh@gmail.com
+                  jubedaparveenh@gmail.com
                 </h2>
               </div>
               <div className="flex mt-2 md:mb-10 mb-4">
